@@ -54,3 +54,6 @@ Spins 1 direction only, standard option 3 minutes.
 
 Original button was short press change mode, long press power off.
 
+Maybe just go straight to wash after a delay upon powerup.
+
+
