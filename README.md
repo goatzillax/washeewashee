@@ -9,6 +9,7 @@ I FIX WASHEE WASHEE MACHINE
 * https://github.com/khoih-prog/ESP8266_ISR_Servo
 * https://github.com/me-no-dev/ESPAsyncWebServer
 * https://github.com/earlephilhower/arduino-esp8266littlefs-plugin
+* https://github.com/ayushsharma82/ElegantOTA
 
 ### Pinout
 
@@ -36,7 +37,7 @@ Mite use button if I can get it in the right place in the case
 
 ### Misc ESC notes
 
-ESC needs a double-tap when going into reverse.
+"Braking" on ESC means double-tap to reverse.  Disable braking.  Also the way I wired it, "forward" is faster than reverse, probably brush configuration.
 
 Standard signal is 50hz (20ms) cycle, varying from 1000ms to 2000ms, center at 1500ms.  Might check if the ESC truly needs that much dead time.  CPPM dead time appears to be minimum 4ms or so.  (CITATION NEEDED)
 
