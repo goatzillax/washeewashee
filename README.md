@@ -6,15 +6,15 @@ I FIX WASHEE WASHEE MACHINE
 
 ### Probable libz
 
-https://github.com/khoih-prog/ESP8266_ISR_Servo
-https://github.com/me-no-dev/ESPAsyncWebServer
-https://github.com/earlephilhower/arduino-esp8266littlefs-plugin
+* https://github.com/khoih-prog/ESP8266_ISR_Servo
+* https://github.com/me-no-dev/ESPAsyncWebServer
+* https://github.com/earlephilhower/arduino-esp8266littlefs-plugin
 
 ### Pinout
 
-D4 - PWM out; also happens to be onboard LED
-GND
-VBUS - 5v
+* D4 - PWM out; also happens to be onboard LED
+* GND
+* VBUS - 5v
 
 ## ESP32-C3
 
@@ -26,9 +26,9 @@ watever that RGB LED library waz
 
 ### Pinout
 
-GPIO6 - PWM out
-GND
-VBUS - 5v
+* GPIO6 - PWM out
+* GND
+* VBUS - 5v
 
 Mite use button if I can get it in the right place in the case
 
