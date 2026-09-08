@@ -57,4 +57,6 @@ Original button was short press change mode, long press power off.
 
 Maybe just go straight to wash after a delay upon powerup.
 
+OO OO EE IDEA for ESP8266 -- RTC should survive reset, so use that to allow the reset button to act like an input and cycle boot state.
+
 
