@@ -23,7 +23,7 @@ Dis would gib me back a button and an RGB LED
 
 ### Probable libz
 
-watever that RGB LED library waz
+almost everything from ESP8266 plus watever that RGB LED library waz
 
 ### Pinout
 
@@ -37,7 +37,7 @@ Mite use button if I can get it in the right place in the case
 
 ### Misc ESC notes
 
-"Braking" on ESC means double-tap to reverse.  Disable braking.  Also the way I wired it, "forward" is faster than reverse, probably brush configuration.
+"Braking" on ESC means double-tap to reverse.  Disable braking.  Also the way I wired it, "clockwise" is faster, but the basket will probably unlock during spin if you spin it that way.  So use counter-clockwise for the spin cycle.
 
 Standard signal is 50hz (20ms) cycle, varying from 1000ms to 2000ms, center at 1500ms.  Might check if the ESC truly needs that much dead time.  CPPM dead time appears to be minimum 4ms or so.  (CITATION NEEDED)
 
@@ -45,7 +45,7 @@ Should allow for ramp-up either direction so it doesn't blow itself up.
 
 ### Wash
 
-Oscillate back and forth, 4 seconds each direction.  Options are 5 minutes and 10 minutes.
+Oscillate back and forth, ~6 seconds each direction.  5 minutes total duration.
 
 ### Spin
 
